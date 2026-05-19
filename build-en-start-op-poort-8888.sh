@@ -8,4 +8,4 @@ docker rm $CONTAINER 2>/dev/null
 
 docker run -d -p 8888:80 --name $CONTAINER $IMAGE
 
-echo "https://localhost:8888"
+echo "http://localhost:8888"
